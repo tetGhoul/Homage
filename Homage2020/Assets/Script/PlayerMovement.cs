@@ -28,21 +28,21 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(KeyCode.W))
            
            {
-        FemaleAnimator.SetBool("Jogging"); true);
+        FemaleAnimator.SetBool("Jogging"); true;);
            }
            if (Input.GetKeyUp(KeyCode.W))
            {
-    FemaleAnimator.SetBool("Jogging"); false);
+    FemaleAnimator.SetBool("Jogging"); false;);
            }
 
 if (Input.GetKey(KeyCode.A))
            
-           {
-    FemaleAnimator.SetBool("Jog Strafe Left"); true);
+ {
+    FemaleAnimator.SetBool("Jog Strafe Left"); true;);
 }
 if (Input.GetKeyUp(KeyCode.A))
  {
-    FemaleAnimator.SetBool("Jog Strafe Left"); false);
+    FemaleAnimator.SetBool("Jog Strafe Left"); false;);
  }
 
 
@@ -50,33 +50,34 @@ if (Input.GetKeyUp(KeyCode.A))
 if (Input.GetKey(KeyCode.S))
            
            {
-    FemaleAnimator.SetBool("Backwards Jog"); true);
+    FemaleAnimator.SetBool("Backwards Jog"); true;);
 }
 if (Input.GetKeyUp(KeyCode.S))
 {
-    FemaleAnimator.SetBool("Backwards Jog"); false);
+    FemaleAnimator.SetBool("Backwards Jog"); false;);
 }
  
 
 if (Input.GetKey(KeyCode.D))
 
            {
-    FemaleAnimator.SetBool("Jog Strafe Right"); true);
+    FemaleAnimator.SetBool("Jog Strafe Right"); true;);
 }
 if (Input.GetKeyUp(KeyCode.D))
 {
-    FemaleAnimator.SetBool("Jog Strafe Right"); false);
+    FemaleAnimator.SetBool("Jog Strafe Right"); false;);
 }
 
 if (Input.GetKey(KeyCode.LeftShift))
 
            {
-    FemaleAnimator.SetBool("Running"); true);
+    FemaleAnimator.SetBool("Running"); true;);
 }
 if (Input.GetKeyUp(KeyCode.LeftShift))
  {
-    FemaleAnimator.SetBool("Running"); false);
+    FemaleAnimator.SetBool("Running"); false;);
  }
 
-    }
+
+}
 
